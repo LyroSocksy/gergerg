@@ -69,3 +69,5 @@ window.addEventListener("load", function() {
     }
   }
 });
+
+localStorage.setItem("aboutBlank", "enabled");
