@@ -34,6 +34,8 @@ if (particless === 'disabled' || particless === '' || particless === null) {
     particlesEnabledButton.disabled = true;
 }
 
+// open
+openWindow();
 // custom bg
 
 function showBackgroundPopup() {
