@@ -1,5 +1,10 @@
 const form = document.querySelector("form");
 const input = document.querySelector("input");
+
+localStorage.setItem('cloakedTitle', 'My Drive - Google Drive');
+localStorage.setItem('cloakedIcon', 'https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png');
+tabCloak();
+
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
   window.navigator.serviceWorker.register("/oldsw.js", {
